@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1735038465 source:c:\users\kadir\onedrive\belgeler\codeblocks\vya\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1735038465 source:c:\users\kadir\onedrive\belgeler\codeblocks\kargo takip programi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
