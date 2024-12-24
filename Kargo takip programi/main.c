@@ -491,6 +491,7 @@ void personel_menu(Customer **customer_list, CityNode *root) {
         printf("3 - Musteriye gonderim ekleme\n");
         printf("4 - Tum musterileri goruntuleme\n");
         printf("5 - Tum kargolari goruntuleme\n");
+        printf("6 - Kargo rotalama ağacını görüntüle\n");
         printf("0 - Ana Menuye Don\n");
         printf("Secim: ");
         scanf("%d", &giris);
@@ -510,6 +511,9 @@ void personel_menu(Customer **customer_list, CityNode *root) {
                 break;
             case 5:
                 display_all_shipments(*customer_list);
+            case 6:
+                printf("Kargo Rotalama Agaci:\n");
+                display_tree(root, 0);
             case 0:
                  printf("Ana Menuye donuluyor...\n");
                 break;
