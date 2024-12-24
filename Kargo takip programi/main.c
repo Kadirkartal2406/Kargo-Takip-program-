@@ -491,7 +491,7 @@ void personel_menu(Customer **customer_list, CityNode *root) {
         printf("3 - Musteriye gonderim ekleme\n");
         printf("4 - Tum musterileri goruntuleme\n");
         printf("5 - Tum kargolari goruntuleme\n");
-        printf("6 - Kargo rotalama ağacını görüntüle\n");
+        printf("6 - Kargo rotalama agacini goruntule\n");
         printf("0 - Ana Menuye Don\n");
         printf("Secim: ");
         scanf("%d", &giris);
