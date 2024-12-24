@@ -176,7 +176,7 @@ void prefill_customers(Customer **customer_list, CityNode *root) {
     char tracking_number1[20];
     generate_tracking_number(tracking_number1);  // Rastgele takip numarası
 
-    add_shipment(&((*customer_list)->shipment_history), 101, tracking_number1, "2024-09-11", 1 , "K");
+    add_shipment(&((*customer_list)->shipment_history), 101, tracking_number1, "2024-09-11", 1 ,2, "K");
 
     char tracking_number2[20];
     generate_tracking_number(tracking_number2);
